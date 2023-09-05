@@ -10,7 +10,7 @@ Rhynorater fick $12.000 för bedriften och write-up återfinns [här](https://rh
 
 <img src="grafana-exploit.svg" width="900"/>
 
-Under BBL-visningen framfördes många kreativa förslag förutom standardförfaranden på hur man bör täppa igen hålen. [@camitz](https://github.com/camitz) har försökt efterlikna attacken i syfte att implementera motåtgärder. Detta är det repot, 
+Under BBL-visningen framfördes många kreativa förslag förutom standardförfaranden på hur man bör täppa igen hålen. [@camitz](https://github.com/camitz) har försökt efterlikna attacken i syfte att implementera motåtgärder. Detta är det repot. 
 
 ## Men mer om det senare...
 
