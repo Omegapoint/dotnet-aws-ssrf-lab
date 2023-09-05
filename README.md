@@ -21,6 +21,8 @@ Det är egentligen fritt fram men jag föreslår serverless, mer specifikt AWS L
 
 För att koppla på publika endpoints kan man t ex lägga upp en API Gateway, eller så finns Lambda Function URLs. Utmaning: både Function URLs och Annotations Framework! 
 
+Kika i [Route53](https://aws.amazon.com/route53/). Där finns lite domäner som är fritt fram att använda.
+
 Och för själva deployen, utnyttja Visual Studio, Rider eller VSCode, vad ni kommer över. Eller bygg med CDK. Jag har redan börjat. Bygg en pipeline. Go wild!
 
 ## Lite resurser
@@ -29,6 +31,6 @@ Och för själva deployen, utnyttja Visual Studio, Rider eller VSCode, vad ni ko
 * [https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/](https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/)
 * [https://zied-ben-tahar.medium.com/aws-lambda-function-urls-with-net-6-minimal-api-727b6d2087a5](https://zied-ben-tahar.medium.com/aws-lambda-function-urls-with-net-6-minimal-api-727b6d2087a5)
 
-## Förberedeler
+## Förberedelser
 
-Alla de som anmäls genom Hnerik/Grönis kommer jag bjuda in till repot och mitt AWS-konto. Alternativt kan vi skriva till mig på Slack.
+Alla de som anmäls genom Henrik/Grönis kommer jag bjuda in till repot och mitt AWS-konto. Alternativt kan vi skriva till mig på Slack.
