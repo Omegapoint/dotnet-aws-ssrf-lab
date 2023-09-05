@@ -7,6 +7,8 @@ I våras visade Davis [denna film](https://www.youtube.com/watch?v=Uklsk1WZ2EU)h
 
 Rhynorater fick $12.000 för bedriften och write-up återfinns [här](https://rhynorater.github.io/CVE-2020-13379-Write-Up). 
 
+![Grafana exploit](gafana-exploit.svg)
+
 Under BBL-visningen framfördes många kreativa förslag förutom standardförfaranden på hur man bör täppa igen hålen. [@camitz](https://github.com/camitz) har försökt efterlikna attacken i syfte att implementera motåtgärder. Detta är det repot, 
 
 ## Men mer om det senare...
