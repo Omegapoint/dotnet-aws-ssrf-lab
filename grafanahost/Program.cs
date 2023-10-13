@@ -2,6 +2,10 @@ using System.Text.Json;
 using System.Web;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// This line configures the project for Lambda support
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
+
 var app = builder.Build();
 
 HttpMessageHandler handler = new HttpClientHandler()
