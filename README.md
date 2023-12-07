@@ -20,9 +20,11 @@ Värdarna är skrivna med [Minimal API](https://learn.microsoft.com/en-us/aspnet
 
 Att lägga upp dem på AWS kan man göra på minst en miljard sätt. Sätt er i lag och gör som ni brukar eller lär er något som ni inte kunde innan!
 
-Det är egentligen fritt fram men jag föreslår serverless, mer specifikt AWS Lambda. Eftersom det är C# finns det några olika varianter. Minimal APIs rakt upp eller med det nya fräscha [.Net Lambda Annotations Framework](https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/).
+Det är egentligen fritt fram men jag föreslår serverless, mer specifikt AWS Lambda. Eftersom det är C# finns det några olika varianter. Minimal APIs rakt upp i en Zip, varför inte kompilerat med NativeAOT _eller_ med det nya fräscha [.Net Lambda Annotations Framework](https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/).
 
 För att koppla på publika endpoints kan man t ex lägga upp en API Gateway, eller så finns Lambda Function URLs. Utmaning: både Function URLs och Annotations Framework! 
+
+Vad ska man använda för själva deployen? AWS SAM verkar fungera bra men även [dotnet lambda tools](https://docs.aws.amazon.com/lambda/latest/dg/csharp-package-cli.html).
 
 Kika i [Route53](https://aws.amazon.com/route53/). Där finns lite domäner som är fritt fram att använda.
 
@@ -32,8 +34,7 @@ Och för själva deployen, utnyttja Visual Studio, Rider eller VSCode, vad ni ko
 
 * [https://zied-ben-tahar.medium.com/aws-lambda-function-urls-with-net-6-minimal-api-727b6d2087a5](https://zied-ben-tahar.medium.com/aws-lambda-function-urls-with-net-6-minimal-api-727b6d2087a5)
 * [https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/](https://aws.amazon.com/blogs/developer/net-lambda-annotations-framework/)
-* [https://zied-ben-tahar.medium.com/aws-lambda-function-urls-with-net-6-minimal-api-727b6d2087a5](https://zied-ben-tahar.medium.com/aws-lambda-function-urls-with-net-6-minimal-api-727b6d2087a5)
-
+* James Eastman: [https://youtu.be/Tx4qxNV4rqY?si=NvF_lwSaSTsLqoVi](https://youtu.be/Tx4qxNV4rqY?si=NvF_lwSaSTsLqoVi) och [https://youtu.be/ZtXWIKrZSMQ?si=lLaaHF7RamNPAO8j](https://youtu.be/ZtXWIKrZSMQ?si=lLaaHF7RamNPAO8j)
 ## Förberedelser
 
 Alla de som anmäls genom Henrik/Grönis kommer jag bjuda in till repot och mitt AWS-konto. Alternativt kan vi skriva till mig på Slack.
